@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <style>
+    #container{
+        display:grid;
+        grid-auto-rows:100px;
+        grid-row-gap:1em;
+        
+    }
+    #row1{
+        background-color:yellow;
+    }
+    #row2{
+        display:grid;
+        grid-template-columns:2fr 1fr 1fr;
+        grid-column-gap:1em;
+    }
+    #R2C1{
+        background-color:yellow;
+    }
+    #R2C2{
+        background-color:yellow;
+    }
+    #R2C3{
+        background-color:yellow;
+    }
+    #row3{
+        background-color:yellow;
+    }
+    </style>
+<body>
+<section id="container">
+    <div id="row1">Row1</div>
+    <div id="row2">
+        <div id="R2C1">R2C1</div>
+        <div id="R2C2">R2C2</div>
+        <div id="R2C3">R2C3</div>
+    </div>
+    <div id="row3">Row3</div>
+</section>    
+</body>
+</html>
