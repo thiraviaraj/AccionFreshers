@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+            <h3>CSS Grid Page#1</h3>
+        </title>
+    </head>>
+    <style>
+       #container{
+        display:grid;
+        background-color:white;
+        grid-row-gap:1em;
+        grid-auto-rows:100px; /* Height of the Row*/
+       } 
+       #row1{
+           background-color:yellow;
+
+
+       }
+       #row2{
+           background-color:yellow;
+           grid-gap:1em;
+           grid-template-columns:200px;
+           /*grid-template-columns:1fr 1fr;*/
+           
+           
+           
+       }
+       #row3{
+           background-color:yellow
+
+
+       }
+    </style>
+<section id="container">
+    <div id="row1">Row1</div>
+    <div id="row2">Row2</div>
+    <div id="row3">Row3</div>
+</section>    
+</body>
+</html>

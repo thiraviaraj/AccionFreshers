@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Grid Page#2
+    </title>
+    <style>
+    #container{
+        background-color:white;
+        display:grid;
+        row-gap:1em;
+        grid-auto-rows:100px;
+        justify-items:stretch;
+        align-items:stretch;
+        /*grid-template-rows:1fr 3fr 1fr;*/
+       
+    }
+    #row2{
+        background-color:white;
+        display:grid;
+        grid-auto-rows:100px;     /*grid-auto-rows:100px;*/
+        grid-template-columns:2fr 1fr;
+        grid-column-gap:1em;
+        /*grid-row:1/3;*/
+        /*grid-auto-rows:minmax(200px,auto);*/
+        /*justify-items:center;*/
+        /*grid-template-columns:50% 50%;*/
+        
+       /* grid-template-rows:200px;*/
+        /*grid-template-columns:1fr 1fr;*/
+        
+    
+   
+    #row2{
+        display:grid;
+        grid-template-columns:1fr 2fr;
+    }
+    
+    .orange{
+        background-color:orange;
+    }
+    </style>
+<body>
+<section id="container">
+    <div id="row1" class="orange">Row1</div>
+    <div id="row2">
+        <div id="R2C1" class="orange">R2C1</div>
+        <div id="R2C2" class="orange">R2C2</div>
+    </div>
+    <div id="row3" class="orange">Row3</div>
+</section>
+</body>
+</html>
